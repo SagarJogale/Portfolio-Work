@@ -1,8 +1,12 @@
+
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import glsl from "vite-plugin-glsl";
 
 export default defineConfig({
+  // GitHub Pages project URL base path
+  base: "/Portfolio-Work/",
+
   plugins: [
     vue(),
     glsl({
@@ -11,15 +15,36 @@ export default defineConfig({
       warnDuplicatedImports: false,
     }),
   ],
+
   server: {
     port: 3000,
     strictPort: true,
     host: true,
   },
+
   resolve: {
-    extensions: [".js", ".jsx", ".ts", ".tsx", ".json", ".ogg", ".wav", ".glsl", ".ktx2"],
+    extensions: [
+      ".js",
+      ".jsx",
+      ".ts",
+      ".tsx",
+      ".json",
+      ".ogg",
+      ".wav",
+      ".glsl",
+      ".ktx2",
+    ],
   },
-  assetsInclude: ["**/*.svg", "**/*.gltf", "**/*.glb", "**/*.png", "**/*.jpg", "**/*.ktx2"],
+
+  assetsInclude: [
+    "**/*.svg",
+    "**/*.gltf",
+    "**/*.glb",
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.ktx2",
+  ],
+
   css: {
     preprocessorOptions: {
       scss: {
@@ -27,11 +52,13 @@ export default defineConfig({
       },
     },
   },
+
   build: {
     outDir: "./dist",
     sourcemap: false,
     emptyOutDir: true,
     chunkSizeWarningLimit: 1000,
+
     rollupOptions: {
       output: {
         inlineDynamicImports: false,
