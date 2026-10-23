@@ -1,8 +1,8 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
-import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
+// import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
+// import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
+// import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
+// import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
+// import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
 
 import thumbnailDigitalMarketing from "../../../assets/thumbnails/digitalmarketing.webp";
 import thumbnailAppAnalytics from "../../../assets/thumbnails/appanalytics.webp";

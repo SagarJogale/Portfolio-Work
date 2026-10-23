@@ -11,7 +11,7 @@ import matcapFragmentShader from "../../shaders/avatar-matcap/fragment.glsl";
 import headVertexShader from "../../shaders/avatar-head/vertex.glsl";
 import headFragmentShader from "../../shaders/avatar-head/fragment.glsl";
 import gsap from "gsap";
-import { aboutProgress } from "../../../animations/transitions/about";
+//import { aboutProgress } from "../../../animations/transitions/about";
 //import { avatarHologram } from "./hologram";
 
 import type { Material, Bone, Texture } from "three";

@@ -7,7 +7,7 @@ import gsap from "gsap";
 import { mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js";
 import { sceneWeights } from "../../../animations/scenes";
 import { avatar } from ".";
-import { aboutProgress } from "../../../animations/transitions/about";
+//import { aboutProgress } from "../../../animations/transitions/about";
 
 import type { Material, BufferGeometry, Object3D, Skeleton } from "three";
 
